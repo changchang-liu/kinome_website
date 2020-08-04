@@ -71,7 +71,7 @@ mod_filters_ui <- function(id, open = FALSE) {
       "Resources",
       NULL,
       ns("flt_resources"),
-      c("Structures", "Commercial assays"),
+      c("with at least 1 crystal structures", "with at least 1 commercial assays"),
       NULL,
       addNAcheck = TRUE,
       na_checkid = ns("na_resources")
